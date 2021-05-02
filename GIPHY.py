@@ -7,7 +7,9 @@ API_KEY = "guiSRRzgEQ6kEgjYICWXimV6Vy5BkvPk"
 
 endpoint = "https://api.giphy.com/v1/gifs/search"
 
-search_term = "mad"
+# The search term is the only variable which you have to fill in!
+# There will be a GIF generated based on the term you enter.
+search_term = ""
 
 params = {"api_key": API_KEY, "limit": 1, "q": search_term, "rating": "g"}
 
