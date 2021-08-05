@@ -14,7 +14,7 @@ def name_shuffler(str_):
         # swapped_string += word + ' ' --> is the same as
         # swapped_string = swapped_string + word + ' '
         swapped_string += word + ' '
-    # Major drawback of this approach is the last whatespace
+    # Major drawback of this approach is the last whitespace
     # directly after the first name. With slicing we just cut if off;)
     return swapped_string[:-1]
 
